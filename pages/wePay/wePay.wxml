@@ -1,0 +1,23 @@
+<page-meta root-font-size="system"/>
+<view class="page" data-weui-theme="{{theme}}" data-weui-mode="{{mode}}">
+	<view class="weui-msg">
+		<view class="weui-msg__text-area">
+			<view class="weui-msg__title">小程序支付中</view>
+			<view class="weui-msg__desc">支付成功后，请不要关闭此页面，程序会自动处理。</view>
+		</view>
+		<!-- <view class="weui-msg__opr-area">
+			<view class="weui-btn-area">
+				<navigator class="weui-btn weui-btn_primary" aria-role="button" url="javascript:history.back();">重新支付</navigator>
+			</view>
+		</view> -->
+
+		<view class="weui-msg__extra-area">
+			<view class="weui-footer">
+				<view class="weui-footer__links">
+					<navigator class="weui-wa-hotarea weui-footer__link" url="javascript:">版权所有</navigator>
+				</view>
+				<view class="weui-footer__text">Copyright &copy; 2008-2016 {copyRight}</view>
+			</view>
+		</view>
+	</view>
+</view>
