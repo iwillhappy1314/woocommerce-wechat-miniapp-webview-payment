@@ -10,6 +10,7 @@
     "navigationBarTextStyle": "black"
   },
   "sitemapLocation": "sitemap.json",
+  "enableShareAppMessage": true,
   "useExtendedLib": {
     "weui": true
   }
