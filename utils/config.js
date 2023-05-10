@@ -1,7 +1,7 @@
-var ROOT_URL = 'https://www.roastime.com/';
-var HOME_URL = 'https://www.roastime.com/minilogin';
-var AJAX_URL = 'https://www.roastime.com/wp-admin/admin-ajax.php';
-var WEBSITENAME = 'Roastime';
+var ROOT_URL = 'https://www.example.com/';
+var HOME_URL = 'https://www.example.com/minilogin';
+var AJAX_URL = 'https://www.example.com/wp-admin/admin-ajax.php';
+var WEBSITENAME = 'WooCommerce WeChat MiniApp';
 
 export default {
     getHomeUrl           : HOME_URL,
