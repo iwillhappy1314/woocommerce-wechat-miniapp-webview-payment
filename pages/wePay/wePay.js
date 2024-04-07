@@ -19,7 +19,7 @@ Page({
 
           // 请求登录后端，获取open_id
           wx.request({
-            url: config.getAjaxUrl + '?action=roas_minapp_login',
+            url: config.getRootUrl + 'wc-api/wprs-wc-wechatpay-mini-app-login',
             data: {
               code: res.code,
             },
