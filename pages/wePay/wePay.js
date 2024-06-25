@@ -10,6 +10,18 @@ Page({
     this.goPay(options);
   },
 
+  rePay: function () {
+    wx.navigateTo({
+        url: '/pages/wePay/wePay?order_id=' + this.orderID,
+    })
+  },
+
+  cancelPay: function () {
+    wx.navigateTo({
+        url: '../webview/webview?src=' + encodeURI(config.getHomeUrl + 'checkout/'),
+    })
+  },
+
   //微信支付
   goPay(payData) {
 

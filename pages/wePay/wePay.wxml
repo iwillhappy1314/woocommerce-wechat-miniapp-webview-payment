@@ -5,11 +5,12 @@
 			<view class="weui-msg__title">小程序支付中</view>
 			<view class="weui-msg__desc">支付成功后，请不要关闭此页面，程序会自动处理。</view>
 		</view>
-		<!-- <view class="weui-msg__opr-area">
-			<view class="weui-btn-area">
-				<navigator class="weui-btn weui-btn_primary" aria-role="button" url="javascript:history.back();">重新支付</navigator>
-			</view>
-		</view> -->
+		<view class="weui-msg__opr-area">
+            <view class="weui-btn-area">
+                <a class="weui-btn weui-btn_primary" aria-role="button" bind:tap="rePay">重新支付</a>
+                <a class="weui-btn weui-btn_default" aria-role="button" bind:tap="cancelPay">取消支付</a>
+            </view>
+        </view>
 
 		<view class="weui-msg__extra-area">
 			<view class="weui-footer">
