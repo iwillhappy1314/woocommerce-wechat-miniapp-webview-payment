@@ -1,6 +1,7 @@
 {
   "pages": [
     "pages/webview/webview",
+    "pages/share/share",
     "pages/wePay/wePay"
   ],
   "window": {

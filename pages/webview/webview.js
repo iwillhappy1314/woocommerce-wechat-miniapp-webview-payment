@@ -7,12 +7,23 @@ Page({
    */
   data: {
     src: config.getHomeUrl,
+    message: {}
+  },
+
+  getmessage(e) {
+    let obj = e.detail.data[e.detail.data.length - 1];
+
+    this.setData({
+      message:obj
+    })
   },
 
   onShareAppMessage() {
+    console.log('/pages/share/share?url=' + encodeURIComponent(this.data.message.url));
     return {
-      title: config.getWebsiteName,
-      path: '/pages/webview/webview',
+      title: this.data.message.title,
+      path: '/pages/share/share?url=' + encodeURIComponent(this.data.message.url),
+      imageUrl: this.data.imageUrl
     }
   },
 

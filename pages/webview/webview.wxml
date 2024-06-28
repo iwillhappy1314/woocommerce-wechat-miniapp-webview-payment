@@ -1,1 +1,1 @@
-<web-view src="{{src}}"></web-view>
+<web-view src="{{src}}" bindmessage="getmessage"></web-view>
