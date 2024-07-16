@@ -1,0 +1,17 @@
+<!-- 
+
+webview 中接入：
+
+<a href="#" onclick="wprs_open_wechat_service()" class="d-block text-center"> 
+
+<script>
+var wprs_open_wechat_service = function() {
+    wx.miniProgram.reLaunch({url: '/pages/service/service'});
+};
+</script>
+-->
+
+<div class="service-block">
+    <h2>点击下面的按钮直接与客服对话</h2>
+    <button type="primary" bind:tap="contactService" open-type="contact">联系客服</button>
+</div>

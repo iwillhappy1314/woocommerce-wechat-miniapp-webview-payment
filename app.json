@@ -2,7 +2,8 @@
   "pages": [
     "pages/webview/webview",
     "pages/share/share",
-    "pages/wePay/wePay"
+    "pages/wePay/wePay",
+    "pages/service/service"
   ],
   "window": {
     "backgroundTextStyle": "light",
